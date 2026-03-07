@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 import joblib
 
 classify_model = joblib.load(
-    r'C:\UMAR DATA\Data Sciences\Deep Learning new\projects\log classification project\bert_model\model.joblib')
+    r'backend/model/model.joblib')
 model=SentenceTransformer("all-MiniLM-L6-v2")
 
 def bert_function(log_message):
