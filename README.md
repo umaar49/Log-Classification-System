@@ -26,17 +26,17 @@ In modern cloud environments, systems generate millions of log entries daily. Ma
 # 🧠 The Classification Pipeline
 This project utilizes a unique three-tier approach to process logs, ensuring that every message is handled by the most appropriate technology:
 
-1. Simple Regex (Rule-Based)
+## 1. Simple Regex (Rule-Based)
 - Purpose: Instant filtering.
 
 - How it works: Uses predefined patterns to immediately catch common log signatures (e.g., standard "Status 200" or   "Heartbeat" signals). This layer saves computational power by handling the easiest tasks first.
 
-2. BERT (Machine Learning)
+## 2. BERT (Machine Learning)
 - Purpose: Deep semantic classification.
 
 - How it works: A fine-tuned BERT (Bidirectional Encoder Representations from Transformers) model processes the logs. Unlike simple keyword matching, BERT understands the context and relationship between words in a log message, accurately distinguishing between complex "Warning" and "Error" states.
 
-3. LLM - GenAI (Generative Intelligence)
+## 3. LLM - GenAI (Generative Intelligence)
 - Purpose: Handling ambiguity and complex reasoning.
 
 - How it works: For logs that are highly unusual or require deep reasoning, the system leverages Large Language Models (Google Gemini API). The LLM acts as the "final judge," providing a human-like understanding of rare edge cases.
