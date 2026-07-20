@@ -66,3 +66,9 @@ This project utilizes a unique three-tier approach to process logs, ensuring tha
 - Educational Purpose: This project was developed as an educational initiative to explore the integration of classical NLP and modern Generative AI within a DevOps context.
 
 - Credits: A special thanks to Codebasics for providing the foundational guidance and inspiration that helped bring the logic of this hybrid classification system to life.
+
+---
+
+# Live Demo
+
+- https://log-classification-system.vercel.app/
